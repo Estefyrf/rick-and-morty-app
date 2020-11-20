@@ -1,0 +1,22 @@
+.deck { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    
+    &__container{
+        flex-wrap: wrap;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+        overflow: scroll;
+    }
+
+    &__line-break {
+        width: 100%;
+    }
+}
