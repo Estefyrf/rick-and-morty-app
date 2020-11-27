@@ -1,0 +1,18 @@
+.deck { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    height: 75vh;
+    overflow: scroll;
+    margin-top: 20px;
+
+    &__loader {
+        grid-column: 1/5;
+    }
+
+    &__max-characters {
+        color: white;
+        font-size: 24px;
+        grid-column: 1/5;
+    }
+}

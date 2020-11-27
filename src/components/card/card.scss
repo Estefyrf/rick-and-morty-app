@@ -1,0 +1,23 @@
+.card  {
+    margin: 20px 10px;
+    position: relative;
+
+    &__name {
+        background-color: rgba(60, 60, 60, 0.7);
+        height: 20%;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        z-index: 1;
+        bottom: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+}

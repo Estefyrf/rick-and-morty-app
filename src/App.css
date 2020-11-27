@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+html {
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
